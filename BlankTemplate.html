@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vega-Lite Tempate for Experiments</title>
+    <meta charset="utf-8" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.9.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.2"></script>
+    <link rel="stylesheet" href="css/vegaLite_base.css">
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+
+   
+
+    </style>
+  </head>
+  <body>
+    <h1>Template for Embedding Vega-Lite Visualization</h1>
+    <!-- Container for the visualization -->
+    <div id="vis"></div>
+ 
+
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var YourViz = {
+         
+
+        //Cut and paste your viz here starting with the schema and ending right before the last curly brace
+        
+      };
+
+ 
+
+
+
+
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#vis', YourViz);
+
+  
+    </script>
+  </body>
+</html>

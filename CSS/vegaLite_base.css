@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+   font-family: "Arial", sans-serif;
+    font-size: 13px;
+}
+
+.vis{
+	margin-left: 20px;
+}
