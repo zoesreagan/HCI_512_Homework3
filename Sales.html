@@ -14,7 +14,7 @@
       .vega-actions a {
         margin-right: 5px;
       }
-     
+
     </style>
   </head>
   <body>
@@ -27,13 +27,13 @@
       var vlSpec = {
          "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A simple bar chart with embedded data.",
-  "data": { "url": "data/sales.csv"},
+  "data": { "url": "data/FoodDeliciousness.csv"},
   "mark": "bar",
   "encoding": {
     "x": {"field": "salesperson", "type": "nominal"},
     "y": {"field": "sales", "type": "quantitative"}
   }
-        
+
       };
 
       // Embed the visualization in the container with id `vis`
